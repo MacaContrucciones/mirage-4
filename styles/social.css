@@ -1,0 +1,41 @@
+.sh-buttons {
+    display: none;
+}
+/* Style all font awesome icons */
+.sh-buttons .fa {
+    font-size: 15px !important;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    cursor: pointer;
+}
+
+/* Set a specific color for each brand */
+
+/* Youtube */
+#youtube {
+    background: #c00;
+    color: white !important;
+    right: 90px;
+    top: 64px;
+}
+
+#instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    color: white !important;
+    right: 50px;
+    top: 64px;
+}
+
+/* Facebook */
+#facebook {
+    background: #3b5998;
+    color: white !important;
+    right: 10px;
+    top: 65px;
+    width: 15px;
+}

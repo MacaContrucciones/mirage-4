@@ -1,0 +1,87 @@
+.screens {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    bottom: 15px;
+}
+.screens-header {
+    display: flex;
+    width: 170px;
+    align-items: center;
+    padding: 0 5px;
+    cursor: pointer;
+    float: right;
+    background-color: var(--primary-color);
+    color: var(--light);
+    justify-content: space-between;
+}
+#screens-title {
+    margin-right: 5px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+.screens-toggle {
+    font-size: 25px;
+    cursor: pointer;
+    pointer-events: auto;
+    margin-bottom: 0;
+}
+.screens-list {
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--light);
+    max-height: 200px;
+    overflow: auto;
+    display: none;
+}
+
+/* Scrollbar */
+.screens-list::-webkit-scrollbar {
+    width: 10px;
+}
+.screens-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+.screens-list::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+.screens-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.screen-item {
+    padding: 10px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.screen-item:hover {
+    background-color: rgba(236, 117, 106, 0.706);
+}
+
+.screen-selected {
+    background-color: rgba(206, 93, 83, 0.706) !important;
+}
+
+/* Mobile */
+#mobile-select-screens {
+    display: none;
+    top: 10px;
+    right: 5px;
+    position: absolute;
+    z-index: 2;
+}
+#mobile-select-screens .screens-header {
+    width: 170px;
+    justify-content: flex-end;
+    float: unset;
+}
+#mobile-screens-list {
+    width: 180px;
+}
+#mobile-screens-title {
+    margin-bottom: 0;
+    margin-right: 5px;
+}

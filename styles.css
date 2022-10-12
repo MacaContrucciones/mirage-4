@@ -1,0 +1,28 @@
+@import "styles/controls.css";
+@import "styles/messages.css";
+@import "styles/screen-list.css";
+@import "styles/banners.css";
+@import "styles/blueprints/blueprints.css";
+@import "styles/action-buttons.css";
+@import "styles/utilities.css";
+@import "styles/social.css";
+@import "styles/responsive.css";
+@import "styles/modals.css";
+@import "styles/miniatures.css";
+@import "styles/hot-spot.css";
+
+:root {
+    --primary-color: #c53736;
+    --color-primary: #c53736;
+    --darken-color-primary: #621b1b;
+    --color-secondary: #379585;
+    --hotspot-color: #c53736;
+    --contrast-color: lightslategray;
+    --back-blue: #283d76;
+    --light: white;
+}
+#container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}

@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+    .controls {
+        display: none;
+    }
+    #banners {
+        display: none;
+    }
+    #mobile-select-screens {
+        display: block;
+        background-color: #fdfdfd;
+    }
+    .action-buttons {
+        bottom: 0;
+        left: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #miniatures {
+        display: none;
+    }
+    #sh-button-container {
+        display: none;
+    }
+    #hide-action-container {
+        display: block;
+    }
+    .blueprints {
+        left: 78px;
+        width: 70%;
+        bottom: 82px;
+        top: unset;
+    }
+    .blueprints img {
+        height: 170px;
+    }
+    .mobile-urbanization-image {
+        display: block;
+    }
+    /* Blueprint points */
+    #diningRoom {
+        right: 234px;
+        top: 86px;
+    }
+    #terrace {
+        right: 185px;
+        top: 130px;
+    }
+    #room {
+        right: 163px;
+        top: 79px;
+    }
+    #habPpal1 {
+        right: 67px;
+        top: 57px;
+    }
+    #habPpal2 {
+        right: 12px;
+        top: 42px;
+    }
+    #boyHab {
+        right: 108px;
+        top: 106px;
+    }
+    #girlHab {
+        right: 68px;
+        top: 106px;
+    }
+}

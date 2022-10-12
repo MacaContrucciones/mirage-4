@@ -1,0 +1,31 @@
+.miniatures {
+    position: absolute;
+    right: 10px;
+    top: calc(100vh / 2 - 150px);
+    width: 100px;
+    z-index: 2;
+    text-align: center;
+}
+.miniatures .images {
+    height: 200px;
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 60px;
+}
+.miniatures img {
+    cursor: pointer;
+    pointer-events: auto;
+    margin: 10px 0;
+    width: 95px;
+    border-radius: 12px;
+}
+.miniatures .arrow {
+    color: var(--primary-color);
+}
+
+.miniatures .images::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    display: none;
+}
